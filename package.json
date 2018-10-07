@@ -1,0 +1,31 @@
+{
+    "name": "threejs",
+    "version": "1.0.0",
+    "description": "threejs template",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "develop": "webpack --mode development --watch",
+        "build": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kentskyo/threejs-template.git"
+    },
+    "keywords": [
+        "threejs"
+    ],
+    "author": "kentskyo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kentskyo/threejs-template/issues"
+    },
+    "homepage": "https://github.com/kentskyo/threejs-template#readme",
+    "dependencies": {
+        "three": "^0.97.0"
+    },
+    "devDependencies": {
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    }
+}
