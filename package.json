@@ -22,7 +22,8 @@
     },
     "homepage": "https://github.com/kentskyo/threejs-template#readme",
     "dependencies": {
-        "three": "^0.97.0"
+        "three": "^0.97.0",
+        "minimist": ">=0.2.1"
     },
     "devDependencies": {
         "webpack": "^4.20.2",
